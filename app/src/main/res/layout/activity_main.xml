@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#B1C8D3"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:textSize="30sp"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textColor="#FF0000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quản lý sinh viên"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+<Button
+    android:background="@drawable/background_button"
+    android:id="@+id/btnmonhoc"
+    android:textColor="@color/white"
+    android:layout_marginTop="90dp"
+    android:layout_gravity="center"
+    android:text="MÔN HỌC"
+    android:layout_width="180dp"
+    android:layout_height="wrap_content">
+
+</Button>
+
+    <Button
+        android:background="@drawable/background_button"
+        android:id="@+id/btntacgia"
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:text="TÁC GIẢ"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content">
+
+    </Button>
+
+    <Button
+        android:background="@drawable/background_button"
+        android:id="@+id/btnthoat"
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:text="THOÁT"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content">
+
+    </Button>
+</LinearLayout>
